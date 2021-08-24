@@ -1,0 +1,1 @@
+module.exports = require('@KrashidBuilt/common/linters/node');

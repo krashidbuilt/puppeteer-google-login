@@ -1,0 +1,23 @@
+{
+  "name": "google-login",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "echo \"Running linter...\" && yarn run lint --fix",
+    "start": "node ."
+  },
+  "dependencies": {
+    "@KrashidBuilt/common": "github:https://github.com/krashidbuilt/common-js-library.git",
+    "puppeteer": "^10.2.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.8",
+    "read": "^1.0.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3"
+  }
+}
